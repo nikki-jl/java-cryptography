@@ -4,6 +4,6 @@ The Caesar cipher is a basic encryption technique where all letters in a message
 
 High-Level Functions:
 
-I created functions to handle the encoding/decoding and shifting/unshifting of inputted messages: encrypt(), decrypt(), and crack().
+I create functions to handle the encoding/decoding and shifting/unshifting of inputted messages: encrypt(), decrypt(), and crack().
 
 I add one more step to reach the final goal of cracking the Caesar cipher. This final step involves letter frequency analysis. I took a text or String and counted how often each letter in the alphabet appears throughout the text. English text will have lots of “E”s and “A”s, while an encrypted cipher may have an unusually high number of “X”s or “B”s.
